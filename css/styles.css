@@ -19,24 +19,20 @@ body {font-family: 'roboto', sans-serif;}
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-    
         color: #212121;}
+        
         .header-mail, .header-tel{
             font-weight: 500;
             font-size: 14px;
             line-height: 1.14;
             letter-spacing: 0.02em;
-        
-            color: #757575;
-        }
+            color: #757575;}
 
         .main-bt{
             font-family: inherit;
             font-weight: 700;
             font-size: 16px;
-            line-height: 30px;
-            /* identical to box height, or 188% */
-        
+            line-height: 1.87;
             display: flex;
             align-items: center;
             text-align: center;
@@ -45,7 +41,7 @@ body {font-family: 'roboto', sans-serif;}
             color: #FFFFFF;}
 
         /* ------------HERO------------ */
-        h1{
+        .hero-title{
             font-weight: 900;
             font-size: 44px;
             line-height: 1.36;
@@ -53,3 +49,29 @@ body {font-family: 'roboto', sans-serif;}
             letter-spacing: 0.06em;
             text-transform: uppercase;
              color: #FFFFFF;}
+        .hero-bt{
+            font-family: inherit ;
+            font-weight: 700;
+                font-size: 16px;
+                line-height: 1.87;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: 0.06em;
+                color: #FFFFFF;
+        }     
+
+       /* ----------BENEFITS------------ */
+           .visually-hidden {
+               position: absolute;
+               width: 1px;
+               height: 1px;
+               margin: -1px;
+               border: 0;
+               padding: 0;
+    
+               white-space: nowrap;
+               clip-path: inset(100%);
+               clip: rect(0 0 0 0);
+               overflow: hidden;
+           }
