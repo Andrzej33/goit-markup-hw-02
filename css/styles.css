@@ -6,12 +6,10 @@ body {font-family: 'roboto', sans-serif;}
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-
+    line-height: 1.19;
     letter-spacing: 0.03em;
-
     color: #2196F3;}
+    .accent-header{color: #000000;}
 
     .header-link{
     
@@ -89,3 +87,32 @@ body {font-family: 'roboto', sans-serif;}
             line-height: 1.71;
             letter-spacing: 0.03em;
             color: #757575;}
+
+           /* ----------WORK------------ */
+         .work-title,.crew-title{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.17;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #212121;}
+      /* ----------CREW------------ */
+      .crew-member{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;}
+      .crew-position{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+         color: #757575;}
+
+ /* ----------FOOTER------------ */
+       .footer{
+        background: #2F303A;}
+       .accent-footer{color: #FFFFFF;}
