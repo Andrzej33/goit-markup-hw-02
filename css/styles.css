@@ -1,5 +1,5 @@
 body {font-family: 'roboto', sans-serif;}
-.list{list-style: none;}
+ul {list-style: none;}
 .link{text-decoration: none;}
  /* ------------HEADER------------ */
 .header-logo{font-family: 'Raleway';
@@ -39,6 +39,9 @@ body {font-family: 'roboto', sans-serif;}
             color: #FFFFFF;}
 
         /* ------------HERO------------ */
+        .hero{
+            
+            background: #2F303A}
         .hero-title{
             font-weight: 900;
             font-size: 44px;
@@ -57,6 +60,9 @@ body {font-family: 'roboto', sans-serif;}
                 text-align: center;
                 letter-spacing: 0.06em;
                 color: #FFFFFF;
+                background: #2196F3;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                border-radius: 4px
         }     
 
        /* ----------BENEFITS------------ */
