@@ -5,8 +5,7 @@
   --primary-bkg-bt-color: #f5f4fa;
   --primary-title-color: #212121;
   --bkg-footer-color: #2f303a;
-  --main-logo-color:#2196f3;
-  --main-link-color:#212121;
+}
 body {
   font-family: "roboto", sans-serif;
   color: #757575;
@@ -20,12 +19,13 @@ ul {
 /* h1,h2,h3,h4,h5,h6[color:var(#212121);] */
 /* ------------HEADER------------ */
 .header-logo,.footer-logo {
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--main-logo-color)
+  color: var(--accent-color);
 }
 .accent-header {
   color: #000000;
@@ -40,7 +40,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-link-color);
+  color: var(--primary-title-color);
 }
 .current {
   color: var(--accent-color);
@@ -70,7 +70,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;;
+  color: var(--primary-bkg-color);
 }
 .hero-bt {
   font-family: inherit;
@@ -81,8 +81,8 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;;
-  background: #2196f3;
+  color: var(--primary-bkg-color);
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -134,11 +134,11 @@ ul {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color:var(--primary-title-color)
+  color: #212121;
 }
 /* ----------CREW------------ */
 .crew {
-  background: #f5f4fa;
+  background: var(--primary-bkg-bt-color);
 }
 .crew-item {
   background: var(--primary-bkg-color);
@@ -149,7 +149,7 @@ ul {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 .crew-position {
   font-weight: 400;
@@ -164,7 +164,7 @@ ul {
   background: var(--bkg-footer-color);
 }
 .accent-footer {
-  color: #ffffff;
+  color: var(--primary-bkg-color);
 }
 .footer-location,
 .footer-mail,
@@ -177,7 +177,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 .place {
-  color: #ffffff;
+  color: var(--primary-bkg-color);
 }
 
 .footer-mail:hover,
@@ -202,7 +202,7 @@ main {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-title-color);
   background-color: var(--primary-bkg-bt-color);
   border: none;
   border-radius: 4px;
@@ -210,8 +210,8 @@ main {
 }
 .filter-bt:hover,
 .filter-bt:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-bkg-color);
+  background-color: var(--accent-color);
 }
 
 .project-item a {
