@@ -217,15 +217,14 @@ main {
 .project-item a {
   text-decoration: none;
 }
-.project-item h2 {
+.project-title {
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
+    font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
 }
-.project-item  p {
+.project-text {
   font-style: normal;
   font-size: 16px;
   line-height: 1.9;
